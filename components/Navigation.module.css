@@ -1,0 +1,22 @@
+.header{
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.navigation a {
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    background-color: cadetblue;
+    color: #f0f0f0;
+}
